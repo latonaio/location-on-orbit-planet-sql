@@ -1,8 +1,8 @@
 CREATE TABLE `location_on_planet_orbit_location_header_data`
 (
   `Planet`                        varchar(20) NOT NULL,
-  `OrbitLocationID`                    varchar(20) NOT NULL,
-  `OrbitLocationName`                  varchar(20) DEFAULT NULL,
+  `OrbitLocationID`               varchar(20) NOT NULL,
+  `OrbitLocationName`             varchar(20) DEFAULT NULL,
   `XCoordinateOfCenter`           varchar(20) DEFAULT NULL,
   `YCoordinateOfCenter`           varchar(20) DEFAULT NULL,
   `Address1`                      varchar(60) DEFAULT NULL,
